@@ -5,13 +5,11 @@ print(a)
 print(type(a))
 
 #profram 2
-
 b=10
 print(b)
 print(type(b))
 
 # program 3
-
 c=True
 print(c)
 print(type(c))
