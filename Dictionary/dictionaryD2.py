@@ -39,8 +39,6 @@ print(dictA)
 # loop
 country  = ["india","pakistan","china","australia","cuba"]
 
-# normal
-
 for city in country:
     print(city)
 
