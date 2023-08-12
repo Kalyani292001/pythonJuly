@@ -30,7 +30,6 @@ q1=greet("python")
 print(q1)
 
 # boolean as a parameter and boolean as return type
-
 def canDrive(vehicle,vehhicleAvl):
     if(vehhicleAvl and vehicle>=18):
         return  True
@@ -41,9 +40,7 @@ q2=canDrive(21,True)
 print(q2)
 
 # list as parameter and list as return type
-
 cities=["pune","mumbai","nagpur","goa"]
-
 def avlCities(cty):
     cty.remove('nagpur')
     return cty
@@ -53,7 +50,6 @@ print(q3)
 print(cities)
 
 # dictionary as parameter and dictionary as return type
-
 info={
     "firstName":"Kalyani",
     "LastName":"Hadole",
@@ -112,3 +108,7 @@ def combn(setA,setB):
 
 q9=combn(setA,setB)
 print(q9)
+
+#############################333
+a1=setA.union(setB)
+print(a1)
